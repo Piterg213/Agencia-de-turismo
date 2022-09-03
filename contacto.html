@@ -5,48 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TurismoPeter</title>
-    <link rel="shortcut icon" href="./imagenes/icon_tur.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./imagenes/icon_tur.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Turismo Peter</h1>
-        <nav>
+        <div class="header-tittle">
+            <a href="index.html">
+                <h1>Turismo Peter</h1>
+            </a>
+        </div>
+        <nav class="header-nav">
             <a href="index.html">Inicio</a>
             <a href="nosotros.html">Nosotros</a>
             <a href="destinos.html">Destinos</a>
             <a href="contacto.html">Contacto</a>
-            <br>
         </nav>
     </header>
     <main>
         <h2>Contacto</h2>
         <form action="show-data.html" target="_blank">
-            <label for="nombre">Nombre/s:</label>
-            <input name="Nombre" type="text" id="nombre" placeholder="Ingrese su nombre..." required>
-            <br><br>
-            <label for="apellido">Apellido/s:</label>
-            <input name="Apellido" type="text" id="nombre" placeholder="Ingrese su apellido..." required>
-            <br><br>
-            <label for="mail">Mail:</label>
-            <input name="Mail" type="email" id="mail" placeholder="Ingrese su email..." required>
-            <br><br>
-            <label for="telefono">Teléfono:</label>
-            <input name="Telefono" type="number" id="telefono" placeholder="Ej. +54 11 9585-9762">
-            <br><br>
-            <label for="consulta">Consulta</label>
-            <br>
-            <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Consulte sobre precios, viajes, administrativas, paquetes, etc." required></textarea> 
-            <br><br>
-            <input type="submit"></input>
-            <input type="reset">
+        <label for="nombre">Nombre/s:</label>
+        <input name="Nombre" type="text" id="nombre" placeholder="Ingrese su nombre..." required>
+        <br><br>
+        <label for="apellido">Apellido/s:</label>
+        <input name="Apellido" type="text" id="apellido" placeholder="Ingrese su apellido..." required>
+        <br><br>
+        <label for="mail">Mail:</label>
+        <input name="Mail" type="email" id="mail" placeholder="Ingrese su email..." required>
+        <br><br>
+        <label for="telefono">Teléfono:</label>
+        <input name="Telefono" type="number" id="telefono" placeholder="Ej. +54 11 9585-9762">
+        <br><br>
+        <label for="consulta">Consulta</label>
+        <br>
+        <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Consulte sobre precios, viajes, administrativas, paquetes, etc." required></textarea> 
+        <br><br>
+        <input type="submit"></input>
+        <input type="reset">
         </form>
         <br><br>
-
         <h3>¡Visitanos en nuestra sucursal!</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.984617567674!2d-58.442357075968616!3d-34.5993818240081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0b65f5ca1b%3A0x81507ba30c638bc2!2sAcevedo%20273%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1661184301141!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
-    <br>
     <footer>
         <nav>
             <a href="https://www.facebook.com" target="_blank"><img src="./Imagenes/facebook.png" alt="facebook" width="20px" ></a>
